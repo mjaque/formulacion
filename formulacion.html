@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+    
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Formulación Química Inorgánica</title>
+	<script src="elementos.js"></script>
+	<script src="tradicionales.js"></script>
+	<script src="naturales.js"></script>
+	<script src="formulacion.js"></script>
+	<link rel= "stylesheet" href="formulacion.css" />
+</head>
+
+<body>
+	<h1>Formulación Química Inorgánica</h1>
+	<p>¿Qué quieres practicar?<p/>
+	<input type="checkbox" class="operacion" value="formular" checked />Formular &nbsp;
+	<input type="checkbox" class="operacion" value="nombrar" checked />Nombrar
+	<br/><br/>
+	<input type="checkbox" class="notacion" value="sistemica" checked />Notación Sistémica &nbsp;
+	<input type="checkbox" class="notacion" value="stock" checked />Notación de Stock &nbsp;
+	<input type="checkbox" class="notacion" value="tradicional" checked />Tradicional &nbsp;
+	<br/><br/>
+	<input type="checkbox" class="tipo" value="elementos" />Elementos &nbsp;
+	<input type="checkbox" class="tipo" value="naturales" />Substancias Naturales &nbsp;
+	<input type="checkbox" class="tipo" value="oxidos" />Óxidos &nbsp;
+	<input type="checkbox" class="tipo" value="peroxidos" />Peróxidos &nbsp;
+	<input type="checkbox" class="tipo" value="metalNoMetal" />Metal-No Metal &nbsp;
+	<input type="checkbox" class="tipo" value="noMetalNoMetal" />No Metal-No Metal &nbsp;
+	<input type="checkbox" class="tipo" value="hidracidos" />Hidrácidos &nbsp;
+	<input type="checkbox" class="tipo" value="hidroxidos" />Hidróxidos &nbsp;
+	<input type="checkbox" class="tipo" value="oxoacidos" />Oxoácidos &nbsp;
+	<input type="checkbox" class="tipo" value="oxosales" checked />Oxosales Neutras&nbsp;
+	<input type="checkbox" class="tipo" value="oxosalesAcidas" />Oxosales Ácidas&nbsp;
+	<br/><br/>
+	<table id="periodica">
+		<tr id="marcadores">
+			<td class="sin_bordes">&nbsp;</td>
+			<td><label><input type="checkbox" class="grupo" value="1" checked />1</label></td>
+			<td><label><input type="checkbox" class="grupo" value="2" checked />2</label></td>
+			<td><label><input type="checkbox" class="grupo" value="3" />3</label></td>
+			<td><label><input type="checkbox" class="grupo" value="4" />4</label></td>
+			<td><label><input type="checkbox" class="grupo" value="5" />5</label></td>
+			<td><label><input type="checkbox" class="grupo" value="6" />6</label></td>
+			<td><label><input type="checkbox" class="grupo" value="7" />7</label></td>
+			<td><label><input type="checkbox" class="grupo" value="8" />8</label></td>
+			<td><label><input type="checkbox" class="grupo" value="9" />9</label></td>
+			<td><label><input type="checkbox" class="grupo" value="10" />10</label></td>
+			<td><label><input type="checkbox" class="grupo" value="11" />11</label></td>
+			<td><label><input type="checkbox" class="grupo" value="12" />12</label></td>
+			<td><label><input type="checkbox" class="grupo" value="13" checked />13</label></td>
+			<td><label><input type="checkbox" class="grupo" value="14" checked />14</label></td>
+			<td><label><input type="checkbox" class="grupo" value="15" checked />15</label></td>
+			<td><label><input type="checkbox" class="grupo" value="16" checked />16</label></td>
+			<td><label><input type="checkbox" class="grupo" value="17" checked />17</label></td>
+			<td><label><input type="checkbox" class="grupo" value="18" />18</label></td>
+		</tr>
+		<tr id="periodo_1">
+			<td><label><input type="checkbox" class="periodo" value="1" />1</label></td>
+			<td>H</td>
+			<td class="sin_bordes" colspan=16>&nbsp</td>
+			<td>He</td>
+		</tr>
+		<tr id="periodo_2">
+			<td><label><input type="checkbox" class="periodo" value="2" />2</label></td>
+			<td>Li</td>
+			<td>Be</td>
+			<td class="sin_bordes" colspan=10>&nbsp</td>
+			<td>B</td>
+			<td>C</td>
+			<td>N</td>
+			<td>O</td>
+			<td>F</td>
+			<td>Ne</td>
+		</tr>
+		<tr id="periodo_3">
+			<td><label><input type="checkbox" class="periodo" value="3" />3</label></td>
+			<td>Na</td>
+			<td>Ma</td>
+			<td class="sin_bordes" colspan=10>&nbsp</td>
+			<td>Al</td>
+			<td>S</td>
+			<td>P</td>
+			<td>S</td>
+			<td>Cl</td>
+			<td>Ar</td>
+		</tr>
+		<tr id="periodo_4">
+			<td><label><input type="checkbox" class="periodo" value="4" checked />4</label></td>
+			<td>K</td>
+			<td>Ca</td>
+			<td>Sc</td>
+			<td>Ti</td>
+			<td>V</td>
+			<td>Cr</td>
+			<td>Mn</td>
+			<td>Fe</td>
+			<td>Co</td>
+			<td>Ni</td>
+			<td>Cu</td>
+			<td>Zn</td>
+			<td>Ga</td>
+			<td>Ge</td>
+			<td>As</td>
+			<td>Se</td>
+			<td>Br</td>
+			<td>Kr</td>
+		</tr>
+		<tr id="periodo_5">
+			<td><label><input type="checkbox" class="periodo" value="5" />5</label></td>
+			<td>Rb</td>
+			<td>Sr</td>
+			<td>Y</td>
+			<td>Zr</td>
+			<td>Nb</td>
+			<td>Mo</td>
+			<td>Tc</td>
+			<td>Ru</td>
+			<td>Rh</td>
+			<td>Pd</td>
+			<td>Ag</td>
+			<td>Cd</td>
+			<td>In</td>
+			<td>Sn</td>
+			<td>Sb</td>
+			<td>Te</td>
+			<td>I</td>
+			<td>Xe</td>
+		</tr>
+		<tr id="periodo_6">
+			<td><label><input type="checkbox" class="periodo" value="6" />6</label></td>
+			<td>Cs</td>
+			<td>Ba</td>
+			<td>La</td>
+			<td>Hf</td>
+			<td>Ta</td>
+			<td>W</td>
+			<td>Re</td>
+			<td>Os</td>
+			<td>ir</td>
+			<td>Pt</td>
+			<td>Au</td>
+			<td>Hg</td>
+			<td>Tl</td>
+			<td>Pb</td>
+			<td>Bi</td>
+			<td>Po</td>
+			<td>At</td>
+			<td>Rn</td>
+		</tr>
+		<tr id="periodo_7">
+			<td><label><input type="checkbox" class="periodo" value="7" />7</label></td>
+			<td>Fr</td>
+			<td>Ra</td>
+			<td>Ac</td>
+			<td class="sin_bordes" colspan=15>&nbsp</td>
+		</tr>
+	</table>
+	<hr/>
+	<p id="pPregunta"><span id="pregunta" ></span>: <input type="text" id="respuesta" /><p/>
+	<p id="resultado" />
+	<p>Tienes <span id="puntos"></span> puntos.</p>
+	<div id="log">Resultados:</div>
+   <footer>
+        <p>Desarrollado en Academia 19e37</p>
+   </footer>
+</body>
+</html>

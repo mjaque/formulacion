@@ -1,0 +1,25 @@
+- Arreglar elementos con múltiples valencias (Cr, Mn).
+	- CrO - óxido de cromo(II) - óxido cromoso
+	- Cr2O3 - óxido de cromo(III) - óxido crómico
+	- CrO3 - oxido de cromo(VI) - anhídrido de cromo(VI)
+	
+	- MnO - óxido de manganeso(II) - óxido manganoso - 
+	- Mn2O3 - oxidos de manganeso(III) - óxido mangánico - 
+	- MnO2 - óxido de manganeso(IV) - - pirolusita
+	
+- Elegir periodos y grupos
+	- Problema en elegir(tipo) por stack overflow.
+- Ver las marcadas inicialmente
+- Oxácidos.
+	- Casos especiales: https://es.wikipedia.org/wiki/Ox%C3%A1cido#Nomenclatura
+- Oxisales (ácidas/neutras)
+- Dicromatos...
+- Tioácidos.
+- Anhídridos.
+- Añadir substancias con formulación rara: 
+	- CrO5 - peróxido de cromo(VI)
+ 
+
+
+
+

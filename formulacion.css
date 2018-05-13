@@ -1,0 +1,19 @@
+#pregunta{
+	font-weight: bold;
+	font-size: 2em;
+}
+#respuesta{ 
+	padding: 0.1.em;
+	font-size: 1.5em;
+	width: 15em;
+}
+#pPregunta{
+	text-align: center;
+}
+table#periodica td{
+	border: 1px solid black;
+	text-align: center;
+}
+.sin_bordes{
+	border: none !important;
+}
