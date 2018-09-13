@@ -17,3 +17,9 @@ table#periodica td{
 .sin_bordes{
 	border: none !important;
 }
+#log{
+	border:1px solid gray;
+	border-radius: 0.5em;
+	background: lightgrey;
+	padding: 1em; 
+}
