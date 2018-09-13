@@ -422,6 +422,7 @@ function preguntar(){
 	pregunta = pregunta.replace(/fosforato/g, "fosfato");
 	pregunta = pregunta.replace(/fosforito/g, "fosfito");
 	pregunta = pregunta.replace(/fosforuro/g, "fosfuro");
+	pregunta = pregunta.replace(/sulfurhídrico/g, "sulfhídrico");
 	pregunta = pregunta.charAt(0).toUpperCase() + pregunta.slice(1);
 	for(let i = 0; i < respuesta.length; i++){
 		respuesta[i] = respuesta[i].replace(/sulfururo/g, "sulfuro");
@@ -432,6 +433,7 @@ function preguntar(){
 		respuesta[i] = respuesta[i].replace(/fosforato/g, "fosfato");
 		respuesta[i] = respuesta[i].replace(/fosforito/g, "fosfito");
 		respuesta[i] = respuesta[i].replace(/fosforuro/g, "fosfuro");
+		respuesta[i] = respuesta[i].replace(/sulfurhídrico/g, "sulfhídrico");
 		respuesta[i] = respuesta[i].charAt(0).toUpperCase() + respuesta[i].slice(1);
 	}	
 	
@@ -651,7 +653,8 @@ function elegir(tipo){
 		case 'hidracido':
 			do {
 				elemento = elementos[Math.floor(Math.random() * elementos.length)];
-			}while((elemento.grupo != 17 && elemento.grupo != 16) || elemento.simbolo == 'O');
+			}while((elemento.grupo != 17 && elemento.grupo != 16) || elemento.simbolo == 'O' || elemento.simbolo == 'At');
+			break;
 		case 'oxoacido':
 			do {
 				elemento = elementos[Math.floor(Math.random() * elementos.length)];
